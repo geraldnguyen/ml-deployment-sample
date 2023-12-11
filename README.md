@@ -4,7 +4,7 @@
 
 - Step 1: Train the model on a dataset that is representative of your application's data.
 - Step 2: Export the Model: Save the trained model in a format that can be easily loaded by your application (e.g., pickle, joblib, TensorFlow SavedModel, ONNX).
-- Step 3: Integrate the Model into the Application. Optionally, deploy the model as an API using frameworks like Flask or FastAPI.
+- Step 3: Load the Model into the Application. Optionally, deploy the model as an API using frameworks like Flask or FastAPI.
 
 ## Step 1 and 2: Train and export the model
 
@@ -12,7 +12,7 @@
 py.exe .\train_model.py
 ```
 
-## Step 3: Integrate the model by deploying it as an API
+## Step 3: Load the model by deploying it as an API
 
 ```
 py.exe .\api.py
